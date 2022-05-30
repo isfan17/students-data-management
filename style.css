@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.judul {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.judul h1 {
+    margin: 0;
+}
+
+.judul p {
+    margin: 0;
+}
+
+.btn-add {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background-color: black;
+    color: white;
+}
+
+.tabel {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tabel tr th {
+    background-color: black;
+    color: white;
+}
+
+.act-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 75px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn-edit {
+    background-color: rgb(90, 190, 230);
+    margin-right: 10px;
+}
+
+#btn-delete {
+    background-color: rgb(228, 106, 106);
+}
+
+#btn-edit:hover, #btn-delete:hover {
+    letter-spacing: 2px;
+}
+
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.judul-form {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#NIM, #nama, #departemen, #prodi, #foto{
+    width: 445px;
+}
+
+.form-group button {
+    background-color: rgb(116, 224, 158);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-group button:hover {
+    letter-spacing: 1px;
+}
